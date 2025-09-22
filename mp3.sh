@@ -14,6 +14,6 @@ echo '  |____/ \___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|\___|_|'
 
 echo 'Enter the Youtube URL to download an mp3'
 echo -n ':' 
-read url
+read URL
 
-yt-dlp -o "/home/storage/downloads/youtube/" --x --audio-format mp3 $url 
+yt-dlp -o "/home/storage/downloads/youtube/" --x --audio-format mp3 $URL 
